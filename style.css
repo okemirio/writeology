@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.digital-project{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe9db6517db41e66bf261_digital-management-thumbnail-blog-writelogy-x-webflow-template-.jpg);
+    
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding-top: 400px;
+    margin: 20px;
+}
+.digital{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#kiss{
+    background-color: floralwhite;
+    color: black;
+    margin: 20px;
+}
+
+.top-side{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.image{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe99991773809b3eb0313_management-thumbnail-blog-writelogy-x-webflow-template.jpg);
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.inside-image img{
+    border-radius: 100%;
+    
+}
+.inside-image{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+#image2{
+background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe96825e3ea16e4fbacb5_productivity-apps-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image3{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe8525409f6f9c1c7ab22_avoid-distractions-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+}
+#image4{
+
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe78a9617508689d8697b_ipad-apps-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+}
+.image5{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe4dc00fdd48ad3d67254_productivity-plan-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+}
+.management{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.management:hover {
+    transform: scale(1.1);
+  }
+
+.desc{
+    margin: 20px;
+}
+form input[type="text"]{
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    background-image: url("./images/search_FILL0_wght400_GRAD0_opsz24.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  
+}
+.buttons{
+    margin: 20px; 
+}
+a{
+    height: 100px;
+    text-decoration: none;
+}
+button{
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    background-color: rgb(228, 219, 219);
+    border: 1px solid transparent;
+    
+}
+.res-image{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abfe89ab6b229bab1ed420_management-software-featured-blog-writelogy-x-webflow-template-p-500.jpeg);
+    height: 60vh;
+    width: 60vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+.word{
+    color: floralwhite;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 180px;
+    
+}
+.imagep1{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe3a09177383d10eae70a_collaboration-software-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+    height: 30vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+}
+.imagep{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    transition: 1s;
+}
+.imagep :hover{
+    transform: scale(1.1);
+}
+
+.subscribe{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+     
+   
+}
+.sub-art{
+    color: floralwhite;
+    text-align: center;
+   padding-top: 100px;
+}
+.sub-art h3{
+    font-size: 40px;
+}
+.sub-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    opacity: 0.4 ;
+}
+.sub-image{
+    background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62b277391fbbeb861ecc93ea_agile-development-thumbnail-blog-writelogy-x-webflow-template.jpeg);
+    height: 50vh;
+    width: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( min-width:300px) and ( max-width: 768px){
+
+.digital-project{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.digital{
+    flex-direction: column;
+    
+}
+.projects{
+    text-align: center;
+    margin-top: 0px;
+}
+.latest-article h1{
+    text-align: center;
+}
+.management{
+    flex-direction: column;
+    ;
+}
+.inside-image{
+    justify-content: center;                                                                    
+}
+.imagep{
+    flex-direction: column;
+}
+.container{
+    flex-direction: column;
+}
+.desc{
+    text-align: center;
+}
+.writeology img{
+    margin-left: 30%;
+}
+form{
+    text-align: center;
+}
+.buttons{
+ align-content: center;
+ margin:20px 20px ;
+ 
+}
+.res-image{
+   margin: auto;
+}
+.xxx{
+    text-align: center;
+}
+}
